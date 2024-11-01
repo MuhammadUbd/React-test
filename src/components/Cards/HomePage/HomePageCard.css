@@ -1,0 +1,35 @@
+.view-btn {
+    margin-top: 15px;
+    background-color: gray;
+    color: white;
+}
+
+.view-btn:hover {
+    background-color: gray;
+    color: black;
+}
+
+.mod-details {
+    font-weight: 350;
+}
+
+.small {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.dis-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+}
+.discount {
+    margin: 5px;
+    background-color: gray;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+}

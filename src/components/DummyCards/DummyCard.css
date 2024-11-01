@@ -1,0 +1,47 @@
+div .dumcard-wrapper {
+    display: flex;
+    margin: 0px auto;
+    gap: 20px;
+    padding: 22px;
+    max-width: 940px;
+    width: 100%;
+}
+
+.img-1 {
+    background-image: url("./assets/kids-image-1.webp");
+}
+
+.img-1,
+.img-2 {
+    width: 460px;
+    height: 230px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.img-2 {
+    background-image: url("./assets/kids-image-2.webp");
+}
+
+@media (max-width : 768px) {
+    div .dumcard-wrapper {
+        gap: 10px;
+    }
+
+    .img-1,
+    .img-2 {
+        height: 140px;
+    }
+}
+
+@media (max-width : 480px) {
+    div .dumcard-wrapper {
+        padding: 15px;
+    }
+
+    .img-1,
+    .img-2 {
+        width: 100%;
+        height: 100px;
+    }
+}

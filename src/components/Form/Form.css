@@ -1,0 +1,10 @@
+div .all {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-head {
+    text-align: center;
+    padding: 10px;
+}

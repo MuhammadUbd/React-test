@@ -1,0 +1,31 @@
+ul {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div .header-wrapper {
+    display: flex;
+    max-width: 900px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px auto;
+    padding: 5px;
+    height: 50px;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.header-img {
+    width: 70px;
+}
+
+@media (max-width: 480px) {
+    div .header-wrapper {
+        margin-left: 12px;
+    }
+}

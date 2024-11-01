@@ -1,0 +1,55 @@
+.caro-style {
+    background-image: url("./assets/banner-4.webp");
+}
+
+.caro-style1 {
+    background-image: url("./assets/banner-5.webp");
+}
+
+.caro-style2 {
+    background-image: url("./assets/banner-6.webp");
+}
+
+.caro-style,
+.caro-style1,
+.caro-style2 {
+    height: 90vh;
+    /* Adjusts height responsively */
+    color: #fff;
+    line-height: 160px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+/* Wrapper styles */
+.carousel-wrapper {
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 16px;
+    /* Add padding for mobile view */
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+
+    .caro-style,
+    .caro-style1,
+    .caro-style2 {
+        height: 40vh;
+        line-height: normal;
+        font-size: 1.2em;
+        /* Adjust font size if needed */
+    }
+}
+
+@media (max-width: 480px) {
+
+    .caro-style,
+    .caro-style1,
+    .caro-style2 {
+        height: 32vh;
+    }
+}

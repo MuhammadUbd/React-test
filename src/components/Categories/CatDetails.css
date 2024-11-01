@@ -1,0 +1,16 @@
+.prodCard-wrapper {
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+@media (max-width: 480px) {
+    .prodCard-wrapper {
+        justify-content: center;
+    }
+}
+
+.category {
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 10px;
+}

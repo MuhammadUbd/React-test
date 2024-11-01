@@ -1,0 +1,23 @@
+.homeprod-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.cat,
+.price {
+    padding: 0px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.prodTitle {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+    .homeprod-wrapper {
+        justify-content: center;
+    }
+}

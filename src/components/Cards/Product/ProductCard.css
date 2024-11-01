@@ -1,0 +1,13 @@
+.prodCard-wrapper {
+    display: flex;
+}
+
+.price {
+    padding: 0px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.view-btn {
+    color: white;
+}
