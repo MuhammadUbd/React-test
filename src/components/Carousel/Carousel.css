@@ -1,13 +1,13 @@
 .caro-style {
-    background-image: url("./assets/banner-4.webp");
+    background-image: url("/assets/banner-4.webp");
 }
 
 .caro-style1 {
-    background-image: url("./assets/banner-5.webp");
+    background-image: url("/assets/banner-5.webp");
 }
 
 .caro-style2 {
-    background-image: url("./assets/banner-6.webp");
+    background-image: url("/assets/banner-6.webp");
 }
 
 .caro-style,

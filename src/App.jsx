@@ -4,11 +4,9 @@ import { routes } from './Routes/Route'
 import { Route, Routes } from 'react-router-dom'
 
 function App() {
-
   return (
     <>
       <CategoryCont>
-        {/* <NewArrvival> */}
         <Routes>
           {routes.map((item, index) => {
             const { path, element, children } = item;
@@ -17,7 +15,6 @@ function App() {
             )
           })}
         </Routes>
-        {/* </NewArrvival> */}
       </CategoryCont>
       <ToastContainer />
     </>

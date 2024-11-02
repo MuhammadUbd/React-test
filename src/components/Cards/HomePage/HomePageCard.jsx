@@ -40,7 +40,7 @@ const HomePageCard = ({ data }) => {
                 <p className='mod-details'>Specification: {title}</p>
                 <p className='mod-details'>Price: ${price}</p>
                 <p className='mod-details'>Brand: {realbr}</p>
-                <p className='mod-details' onClick={() => navigate(`/category/${category}/${id}`)}><a>For more Details</a></p>
+                <p className='mod-details' onClick={() => navigate(`/category/${category}/${id}`)}><a>Details</a></p>
                 <img src={image} className='small' alt="" />
             </Modal>
         </>

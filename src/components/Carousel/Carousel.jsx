@@ -5,7 +5,6 @@ import "./Carousel.css"
 
 const Carosel = () => {
     return (
-
         <>
             <div className='carousel-wrapper'>
                 <Carousel autoplay>
