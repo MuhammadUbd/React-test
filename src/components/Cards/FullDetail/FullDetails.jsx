@@ -7,7 +7,7 @@ const FullDetails = ({ data }) => {
     const { image, price, title, brand, model, color, discount } = data;
     // console.log(data.discount)
     return (
-        <div>
+        <div className='detail-card'>
             <Card
                 hoverable
                 style={{ width: 300 }}

@@ -45,11 +45,32 @@
     }
 }
 
+/* @media (max-width: 480px) {
+    .carousel-wrapper {
+        width: 100%;
+    }
+    .caro-style,
+    .caro-style1,
+    .caro-style2 {
+        height: 26vh;
+    }
+} */
+
+
 @media (max-width: 480px) {
+    .carousel-wrapper {
+        width: 100%;
+        padding: 0 15px;
+    }
 
     .caro-style,
     .caro-style1,
     .caro-style2 {
-        height: 32vh;
+        height: 16.5vh;
+        line-height: 1.2em;
+        font-size: 0.9em;
+        background-size: cover;
+        padding: 25px 0px;
+        border-radius: 4px;
     }
 }

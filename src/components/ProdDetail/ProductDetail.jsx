@@ -19,7 +19,7 @@ const ProductDetail = () => {
     obj()
   }, [prodCont])
   return (
-    <div>
+    <div className='detail-card'>
       <FullDetails data={single} />
     </div>
   )

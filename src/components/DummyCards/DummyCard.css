@@ -19,6 +19,7 @@ div .dumcard-wrapper {
     border-radius: 5px;
 }
 
+
 .img-2 {
     background-image: url("/assets/kids-image-2.webp");
 }
@@ -37,11 +38,13 @@ div .dumcard-wrapper {
 @media (max-width : 480px) {
     div .dumcard-wrapper {
         padding: 15px;
+        /* padding-top: -5px; */
+        flex-direction: column;
     }
 
     .img-1,
     .img-2 {
-        width: 100%;
-        height: 100px;
+        width: 400px;
+        height: 19.7vh;
     }
 }

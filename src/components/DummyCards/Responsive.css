@@ -1,0 +1,30 @@
+.dumcard-wrapper {
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.ef {
+    height: 90vh;
+    /* Adjusts height responsively */
+    color: #fff;
+    line-height: 160px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+@media (max-width: 480px) {
+    .img1, .img2 {
+        height: 30vh;
+        /* Adjusts height responsively */
+        color: #fff;
+        line-height: 160px;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+    }
+}
