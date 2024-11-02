@@ -38,13 +38,14 @@ div .dumcard-wrapper {
 @media (max-width : 480px) {
     div .dumcard-wrapper {
         padding: 15px;
+        width: 100%;
         /* padding-top: -5px; */
         flex-direction: column;
     }
 
     .img-1,
     .img-2 {
-        width: 400px;
+        width: 100%;
         height: 19.7vh;
     }
 }
